@@ -13,13 +13,13 @@ class QuestionData {
     var list = [Question]()
     
     init() {
-        // Creating a quiz item and appending it to the list
+        
         let item = Question(text: "The expected return of a share is also referred to as the equity cost of capital", correctAnswer: true)
         
-        // Add the Question to the list of questions
+       
         list.append(item)
         
-        // skipping one step and just creating the quiz item inside the append function
+      
         list.append(Question(text: "For most investments you should use the arithmetic return instead of the geometric return as a discount factor", correctAnswer: true))
         
         list.append(Question(text: "Asset diversification can eliminate both ideosyncratic and systematic risk", correctAnswer: false))
